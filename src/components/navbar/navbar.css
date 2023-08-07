@@ -1,0 +1,29 @@
+.navbar {
+  padding-top: 28px;
+}
+.navbar_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.navbar_link {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #030202;
+}
+.navbar_link::after{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/icons/select.svg);
+    vertical-align: middle;
+    background-position: center;
+    margin-left: 7px;
+}

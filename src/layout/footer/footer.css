@@ -1,0 +1,132 @@
+.footer {
+  background-repeat: no-repeat;
+  background-image: url(../../assets/img/footer_img.png);
+  background-position: center;
+}
+.footer_block {
+  padding-top: 96px;
+}
+
+.footer_logo::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 69px;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/icons/footer_line.svg);
+  background-position: center;
+  margin-left: 29px;
+}
+.footer_title {
+  max-width: 432px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 56px;
+}
+
+.footer_top_box {
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 77px;
+}
+
+.footer_subtitle {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.footer_link {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+
+.footer_link:hover{
+font-weight: 700;
+}
+
+.footer_link + .footer_link {
+  margin-top: 16px;
+}
+.footer_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 57px;
+  padding-bottom: 118px;
+  gap: 48px;
+}
+
+.contact_img {
+  margin-bottom: 40px;
+}
+
+.footer_phone::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/icons/footer-phone.svg);
+  background-position: center;
+  vertical-align: middle;
+  margin-right: 17px;
+}
+
+.footer_btn {
+  padding: 14px 40px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: inherit;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+
+.footer_btn:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+.footer_bottom {
+  border-top: 1px solid #fff;
+  padding-top: 30px;
+  padding-bottom: 37px;
+  display: flex;
+  align-items:center;
+}
+
+.footer_bottom_text {
+  max-width: 429px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer_bottom_text2 {
+  max-width: 342px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 210px;
+}
+
+.footer_bottom_text2::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 17px;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/icons/location.svg);
+  margin-right: 18px;
+}

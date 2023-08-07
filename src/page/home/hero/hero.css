@@ -1,0 +1,88 @@
+.hero {
+  padding-top: 23px;
+}
+.hero_img {
+  width: 209px;
+  height: 202px;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/img/img1.png);
+  background-position: center;
+}
+
+.hero_img2 {
+  width: 209px;
+  height: 202px;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/img/img2.png);
+}
+.hero_img3 {
+  width: 300px;
+  height: 194px;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/img/img3.png);
+  background-position: center;
+}
+
+.hero_text {
+  font-weight: 700;
+  line-height: 37px;
+  font-size: 16px;
+  color: #fff;
+  text-align-last: right;
+}
+
+.hero_text2 {
+  font-weight: 400;
+  line-height: 37px;
+  font-size: 16px;
+  padding-top: 22px;
+  cursor: pointer;
+}
+
+.hero_text_box {
+  position: absolute;
+  bottom: 8px;
+  right: 21px;
+}
+
+.hero_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+}
+.hero_item {
+  width: 409px;
+  height: 167px;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/img/img11.png);
+  background-position: center;
+  transition: all 0.4s ease;
+}
+.hero_item:hover {
+  background-color: #f4f4f4;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.item2 {
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/img/img22.png);
+}
+.item3 {
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/img/img33.png);
+}
+.hero_box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero_title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #000;
+}

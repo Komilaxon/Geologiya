@@ -1,0 +1,85 @@
+.site_header {
+  padding: 13px 0;
+  border-bottom: 1px solid #C6C6C6;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/icons/flag.svg); 
+  background-position: left top;
+  background-size: contain;
+}
+
+.site_header_logo {
+  max-width: 73px;
+}
+
+.site_header_title {
+  max-width: 311px;
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 23px;
+}
+.site_header_block{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.site_header_box{
+    display: flex;
+    align-items:center;
+}
+.site_header_list{
+    display: flex;
+    align-items:center;
+}
+.site_header_item+.site_header_item{
+    margin-left: 40px;
+}
+.site_header_link{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #030202;
+}
+.link1::before{
+    content:"";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../../assets//icons/phone.svg);
+    vertical-align: middle;
+    background-position: center;
+    margin-right: 15px;
+}
+.link2:before{
+    content:"";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../../assets//icons/message.svg);
+    vertical-align: middle;
+    background-position: center;
+    margin-right: 15px;
+}
+.site_header_select{
+    margin: 0px 31px;
+}
+
+.site_header_select{
+    border: none;
+}
+
+
+.site_header_btn{
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/icons/menu.svg);
+    border: none;
+    background-color: #fff;
+    margin-left: 29px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.stat {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 42px;
+  max-width: 139px;
+  margin: 0 auto;
+}
+
+.site_stat {
+  padding-bottom: 42px;
+}
+
+.stat_box {
+  padding: 200px 0;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets//img/statistika.png);
+  background-position: center;
+  margin-top: 42px;
+}
+
+.stat_box2{
+  background-repeat: no-repeat;
+  background-image: url(../../../assets//img/stat1.png), url(../../../assets//img/stat2.png);
+  background-position: top, bottom
+
+}

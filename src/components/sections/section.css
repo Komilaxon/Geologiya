@@ -1,0 +1,56 @@
+.sections {
+  padding: 36px 0;
+}
+
+.section_title {
+  font-family: "Montserrat";
+  color: #000;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.section_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  padding: 36px 0;
+}
+
+.section_subtitle {
+  max-width: 338px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 183px 26px 13px 44px;
+  color: white;
+}
+.section_subtitle::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 19px;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/icons/vektor.svg);
+  position: absolute;
+  top: 28px;
+  right: 39px;
+}
+
+.section_item {
+  position: relative;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-image: url(../../assets/img/geo.jpg);
+  background-position: center;
+  
+}
+
+.section_item:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
